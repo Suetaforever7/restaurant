@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+body {
+  background-image: url(../../images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header .container .navbar {
+  display: inline-flex;
+}
+.header .container .navbar .logo {
+  padding: 50px 0px 0px 165px;
+}
+.header .container .navbar .logo .relative {
+  position: relative;
+  right: 32px;
+}
+.header .container .navbar .navbar-line .left {
+  font-family: "Open Sans";
+  opacity: 0px;
+  padding: 50px 0px 0px 268px;
+  font-weight: 700;
+  size: 14px;
+  display: inline-flex;
+}
+.header .container .navbar .navbar-line .left ul {
+  display: inline-flex;
+  gap: 25px;
+  list-style: none;
+}
+.header .container .navbar .navbar-line .left a:hover{
+   color: red;
+   transition: all 1s ease;
+}
+.header .container .navbar .navbar-line .left a {
+  text-decoration: none;
+  color: white;
+  display: inline-flex;
+}
+
+.header .container .navbar .navbar-line .cart-box {
+  display: inline-flex;
+  padding-left: 36px;
+  border-right: 1px solid white;
+  padding: 20px;
+  padding-right: 20px;
+  display: inline-flex;
+  cursor: pointer;
+}
+.header .container .navbar .navbar-line .information-box .number span {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.header .container .navbar .navbar-line .information-box .number span:hover{
+   color: red;
+   transition: all 1s ease;
+}
+.header .container .navbar .navbar-line .right{
+   display: inline-flex;
+}
+.header .container .navbar .navbar-line .right .information-box {
+   padding-left: 20px;
+   display: block ;
+}
+.header .container .navbar .navbar-line .order {
+background-color: #FF7400;
+color: white;
+width: 157px;
+height: 47px;
+margin-left: 20px;
+border: none;
+font-family: Open Sans;
+font-size: 14px;
+font-weight: 700;
+}
+.header .container .navbar .navbar-line .order:hover{
+   background-color: #6c380e;
+   transition:linear background-color 0.2s;
+   cursor: pointer;
+}
